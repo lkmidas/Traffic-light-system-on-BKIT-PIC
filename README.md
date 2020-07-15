@@ -5,12 +5,12 @@ Traffic light system is a common application of an embedded system. In this proj
 ## Features
 - The system that can work in 3 different mode: automatic countdown, manual, and standby.
 - In automatic countdown mode, the lights will change its state when the countdown reaches zero.
-- In manual mode, the lights' state can only be changed manually using the 'B' button.
-- Switch between these 2 modes using button 'A'.
-- In standby mode, only yellow lights will blink, switch to this mode using button '#'.
-- Next 2 features are about the countdown timer. A special condition feature is simulated using 2 buttons 'C' and 'D' which stands for "entering special condition" and "leaving special condition", which will change the timer accordingly using 2 sets of predefined timers. In the real world, special conditions can be something like rush hour, or the state of the traffic.
-- In addition to those 2 predefined timers, you can set it manually using the '*' and the number buttons.
-- The last feature is force switching: the lights can go immediately from red to green and green to red using button '0'. This is to simulate the case when there is a prioritized vehicle like an ambulance or a fire truck approaching the intersection. In the real application, the button can be replaced by something like a camera or a sensor.
+- In manual mode, the lights' state can only be changed manually using the `B` button.
+- Switch between these 2 modes using button `A`.
+- In standby mode, only yellow lights will blink, switch to this mode using button `#`.
+- Next 2 features are about the countdown timer. A special condition feature is simulated using 2 buttons `C` and `D` which stands for "entering special condition" and "leaving special condition", which will change the timer accordingly using 2 sets of predefined timers. In the real world, special conditions can be something like rush hour, or the state of the traffic.
+- In addition to those 2 predefined timers, you can set it manually using the `*` and the number buttons.
+- The last feature is force switching: the lights can go immediately from red to green and green to red using button `0`. This is to simulate the case when there is a prioritized vehicle like an ambulance or a fire truck approaching the intersection. In the real application, the button can be replaced by something like a camera or a sensor.
 - The output signals are simulated on a traffic light demonstration board, the design of that board on Altium Designer can be found in this repository.
 ## Program structure
 The program uses 4 modules: lcd, button, interrupt and timer. Its structure is shown in the diagram below:
