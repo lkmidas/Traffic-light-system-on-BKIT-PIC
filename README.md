@@ -1,5 +1,5 @@
 # Traffic light system on BKIT PIC
-This is my project for HCMUT Computer Engineering course CO2021 - *Logic Design Project*: **Simulating a 4-way intersection traffic light system on the BKIT PIC development board**.
+This is my project for HCMUT Computer Engineering course CO2021 - *Logic Design Project*: **Simulating a 4-way intersection traffic light system on the BKIT PIC development board**. More details are in the report file (written in Vietnamese).
 ## Introduction
 Traffic light system is a common application of an embedded system. In this project, I will simulating such a system using the BKIT PIC development board, which is based on the PIC18F4620 microcontroller and developed by BKIT Hardware Club.
 ## Features
